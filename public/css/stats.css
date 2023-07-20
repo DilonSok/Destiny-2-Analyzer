@@ -1,0 +1,17 @@
+.stats-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.stats-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.stats-container img{
+    width: calc(75vw);
+}

@@ -1,21 +1,111 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="./css/search-character.css">
-    </head>
-    <body>  
-       
-        <div class="search-bar">
-            <input type="text" placeholder="Example#1234" id="search-char">
-            <button id="search-button" class="submit-char-button" type="submit">Search</button>
-        </div>
 
-        <div class="test-card">
-            <div class="title">testTitle/div>
-            <div class="displayName">Waffle</div>
-            <div class="displayNameCode">4915</div>
-            <div class="displayData">example data</div>
+<head>
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/guardian.css">
+    <link rel="stylesheet" href="./css/stats.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header-container">
+        <div class="header-bar">
+            <p class="title">
+                Destiny 2 Wrapped
+            </p>
+            <div class="right-section">
+                <p class="help-button">
+                    Help?
+                </p>
+                <button class="hide-button">
+                    Hide
+                </button>
+            </div>
         </div>
-        <script src="./js/search.js"></script>
-    </body>
+    </header>
+    <!--Loading Screen (for loading in/creating Wrapped)-->
+    <div class="loading-screen">
+         
+    </div>
+
+    <!--Inbetween Screen (for between page loading info)-->
+    <div class="inbetween-screen">
+        <!--This will have manipulatable elements for animation.-->
+        <!--This will have manipulatable elements for animation.-->
+        <!--This will have manipulatable elements for animation.-->
+    </div>
+
+    <!--Search Page (for searching for acc.)-->
+    <div class="search-page" id="search-page">
+        <div class="search-container">
+            <p class="search-title">
+                Find Your Guardian
+            </p>
+            <form class="search-bar">
+                <input class="search-char-input" id="search-char" type="text" placeholder="Example#1234">
+                <button class="search-char-button" id="search-button" type="submit">
+                    Q
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <!--Guardian Page (for displaying acc. guardians)-->
+    <div class="guardian-page" id="guardian-page">
+        <div class="guardian-container">
+            <div class="guardian">
+                <img src="/images/warlock-img.jpg" alt="Warlock Test Img">
+                <div class="insight-container">
+                    <p class="insight-text">
+                        Your most played class is Warlock with 205 hours.
+                    </p>
+                </div> 
+            </div>
+            <!--
+            <div class="guardian">
+                <span>
+                    <img src="/images/titan-img.jpg" alt="Titan Test Img">
+                </span>
+            </div>
+            <div class="guardian">
+                <span>
+                    <img src="/images/hunter-img.jpg" alt="Hunter Test Img">
+                </span>
+            </div>
+            -->
+
+        </div>
+    </div>
+
+    <!--Stats Page (for displaying stats)-->
+    <div class="stats-page" id="stats-page">
+        <div class="stats-container">
+            <div class="pve-container">
+                <img src="/images/pve-img.jpg" alt="">
+                <p class="insight-text">
+                    You're a fan of PVE. 
+                </p>
+            </div>
+            <!--
+        
+            <div class="pvp-container">
+                <img src="/images/pvp-img.jpg" alt="">
+            </div>
+            <div class="fave-guns-container">
+
+            </div>
+
+            -->
+        </div>
+    </div>
+    <script src="./js/search.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,36 @@
+.guardian-page{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.guardian-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-direction: row;
+}
+
+.guardian{
+    display: flex;
+    flex-direction: row;
+    overflow-x:auto;
+}
+
+.guardian-container img{
+    width: calc(33.33vw);
+}
+
+.insight-container{
+    margin-left: 20px;
+}
+
+.insight-text{
+    max-width: calc(30.00vw);
+    max-height: 400px;
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow: ellipsis;
+    font-size: 20px;
+}

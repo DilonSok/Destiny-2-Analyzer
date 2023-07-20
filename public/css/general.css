@@ -1,0 +1,30 @@
+/*{
+    border-style: solid;
+    border-color: orange;
+    border-width: 1px;
+}
+*/
+body {
+    font-family: 'Lunasima', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(13, 17, 44);
+    padding: none;
+    margin: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    padding: 0;
+    margin: 0;
+}
+
+
+.search-page, .guardian-page *{
+    display: none;
+}
+
