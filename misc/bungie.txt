@@ -1,0 +1,10 @@
+x-api-key c9501b1afe3a4d879887457002eaf19d
+
+
+o-auth-url https://www.bungie.net/en/OAuth/Authorize
+
+
+
+account-# https://www.bungie.net/7/en/User/Profile/3/4611686018492293152?bgn=Waffle
+
+profile-#-profile-type https://www.bungie.net/en/Gear/3/4611686018492293152/2305843009522836757
